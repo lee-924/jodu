@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Marck+Script&family=Noto+Naskh+Arabic:wght@400..700&family=Playpen+Sans+Arabic:wght@100..800&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=VT323&display=swap');
+
+
+* {
+    padding:0px;
+    margin: 0px;
+    font-family: 'VT323';
+    color: white;
+}
+
+body {
+    height: 844px;
+    width: 390px;
+    background-color: #333;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loveBox {
+
+    height: 200px;
+    width: 250px;
+    background-color: darkred;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.click {
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: red;
+    border: 2px solid white;
+    color:white;
+
+}
+
+.how {
+    font-size: 16px;
+    padding:10px;
+}
