@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Marck+Script&family=Noto+Naskh+Arabic:wght@400..700&family=Playpen+Sans+Arabic:wght@100..800&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=VT323&display=swap');
+
+* {
+    padding:0px;
+    margin:0px;
+    font-family: 'VT323';
+}
+
+body {
+    height: 844px;
+    width: 390px;
+    background-color: black;
+    position: relative;
+
+
+}
+
+.g {
+    color:white;
+    position: absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    text-align: center;
+}
+
+.count {
+    top:50%;
+}
+
+.counter {
+    position: absolute;
+    left:50%;
+    top:40%;
+    transform: translate(-50%,-50%);
+    height:120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid red;
+    background-color: #333;
+    color:white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar { 
+    background-color: lime;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
