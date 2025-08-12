@@ -23,7 +23,7 @@ close.addEventListener('click', () => {
 
 let tapGameBtn = document.querySelector('.tapGame')
 tapGameBtn.addEventListener('click', () => {
-    window.location.href = '../Pages/tapCounter.html'
+    window.location.href = 'tapCounter.html'
 })
 
 
