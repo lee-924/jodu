@@ -26,4 +26,7 @@ tapGameBtn.addEventListener('click', () => {
     window.location.href = 'tapCounter.html'
 })
 
-
+let messageBox = document.querySelector('.messagePage')
+messageBox.addEventListener('click', () => {
+    window.location.href = 'messageBox.html'
+})
