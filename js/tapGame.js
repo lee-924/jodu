@@ -83,10 +83,11 @@ function two() {
   hiddenDiv.style.animationPlayState = "running";
     setTimeout(() => {
     text.innerHTML = 
-    ` <p>Fun fact:</p>
-        <p>
-          I RAN OUT OF IDEAS TO GIVE HERE <br />
-          <br />
+    `<p> Fun fact: <br /></p>
+    <p>I never want to hurt you, <br />
+     even if it means I have to leave you. <br />
+     I am sorry. <br /> <br />
+    
           
           just tap till 300 for final message<br />
           <br />
@@ -110,7 +111,7 @@ function three() {
   hiddenDiv.style.animationPlayState = "running";
   setTimeout(() => {
     text.innerHTML = 
-    ` <p>Fun fact:</p>
+    ` <p>Fun fact: <br /></p>
         <p>
           your an amazing person sweetheart <br />
           <br />

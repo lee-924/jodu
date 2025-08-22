@@ -17,6 +17,8 @@ body {
     position:relative;
 }
 
+
+
 header {
     height:300px;
     width: 100%;
@@ -34,9 +36,9 @@ header {
 .heart {
     height:100px;
     width: 100px;
-    color: red;
+    color: aqua;
     stroke-width: 3rem;
-    stroke: darkred;
+    stroke: aquamarine;
 }
 
 .loveBox {
